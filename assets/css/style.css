@@ -1,0 +1,50 @@
+body {
+    background-image: url("../images/zelda-background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#heading{
+    background-color: #b1d213;
+    font-family: 'Cinzel', serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#instructions {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+#randomNumber {
+    background-color: #e0c039;
+    font-family: 'Cinzel', serif;
+    margin-top: 10px;
+    height: 100px;
+    font-size: 25px
+}
+
+#record {
+    background-color: #15a6d3;
+    font-family: 'Cinzel', serif;
+    margin: 10px 0px 0px 5px;
+    height: 100px;
+}
+
+#buttons {
+    margin: 15px 0px;
+}
+
+#currentScore {
+    margin: 15px 0px 15px 5px;
+    background-color: #ef3f54;
+    font-family: 'Cinzel', serif;
+}
+
+#scoreTotal {
+    font-size: 25px;
+}

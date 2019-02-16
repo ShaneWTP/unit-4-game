@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupee Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8" id="heading">
+                <h1>The Legend of Zelda: Rupee Collector!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" id="instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four Zelda Rupees below. By clicking on a rupee you will add a specific amount of
+                    of points to your total score.
+                </p>
+                <p>You win the game by matching your total score to the random number. You lose the game if your
+                    total score goes above the random number.
+                </p>
+                <p>The value of each rupee is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each rupee.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" id="randomNumberDiv">
+                <p id="randomNumber">0</p>
+            </div>
+            <div class="col-sm-3" id="record">
+                <div class="row">
+                    <div class="col-sm-12" id="winDiv">
+                        <p id="wins">Wins: 0</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12" id="lossDiv">
+                        <p id="losses">Losses: 0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" id="buttons">
+                <button id="button-1" value="0"><img src="assets/images/green-rupee.png" class="img-responsive icons" id="image1"></button>
+                <button id="button-2" value="0"><img src="assets/images/blue-rupee.png" class="img-responsive icons" id="image2"></button>
+                <button id="button-3" value="0"><img src="assets/images/red-rupee.png" class="img-responsive icons" id="image3"></button>
+                <button id="button-4" value="0"><img src="assets/images/gold-rupee.png" class="img-responsive icons" id="image4"></button>
+            </div>
+            <div class="col-sm-3" id="currentScore">
+                <div class="row">
+                    <div class="col-sm-12" id="scoreText">
+                        <p>Your current score is:</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12" id="scoreTotal">
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
